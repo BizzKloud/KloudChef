@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/circular_corner"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        style="@style/circular_corners_only_top"
+        android:backgroundTint="@color/bizzlightblue"
+        android:gravity="center"
+        android:text="Logout"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are You sure you want to Logout ?"
+        android:textSize="16sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@android:color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:id="@+id/logoutCancelButton"
+            android:layout_width="100dp"
+            style="@style/login_button"
+            android:layout_height="40dp"
+            android:text="Cancel"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            />
+
+        <Button
+            android:id="@+id/logoutYesButton"
+            android:layout_width="100dp"
+            style="@style/login_button"
+            android:layout_height="40dp"
+            android:text="YES"
+            android:layout_marginStart="20dp"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

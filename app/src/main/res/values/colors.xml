@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="bizzblue">#334774</color>
+    <color name="bizzlightblue">#334774</color>
+    <color name="bizzorange">#ff8800</color>
+    <color name="bizzlightorange">#ff9d2d</color>
+    <!--<color name="red">#C80000</color>-->
+    <color name="red">#FF2B2B</color>
+    <color name="pink">#FDE8E7</color>
+    <color name="table">#37A7AA</color>
+    <color name="darkgrey">#606060</color>
+    <color name="grey">#878787</color>
+    <color name="lightgrey">#e6e6e6</color>
+    <color name="rupeegreen">#328926</color>
+    <color name="white">#ffffff</color>
+</resources>

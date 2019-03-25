@@ -1,0 +1,70 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--</style>-->
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:fontFamily">@font/open_sans</item>
+        <item name="colorPrimary">@android:color/holo_orange_dark</item>
+        <item name="colorPrimaryDark">@color/bizzlightorange</item>
+        <item name="colorAccent">@color/bizzorange</item>
+        <!--<item name="colorControlNormal">@android:color/holo_orange_dark</item>-->
+        <item name="android:color">@color/bizzorange</item>
+        <item name="colorControlActivated">@color/bizzorange</item>
+        <item name="android:colorForeground">@color/bizzorange</item>
+        <!--<item name="android:colorControlHighlight">#ffff8800</item>-->
+    </style>
+
+    <style name="spinner_style">
+        <item name="android:background">@drawable/gradient_spinner</item>
+        <item name="android:popupBackground">#DFFFFFFF</item>
+    </style>
+
+    <style name="password_style" >
+        <item name="android:background">@drawable/gradient_password</item>
+    </style>
+
+    <style name="count_style" >
+        <item name="android:background">@drawable/gradient_count</item>
+    </style>
+
+    <style name="login_button" >
+        <item name="android:background">@drawable/login_button</item>
+    </style>
+
+    <style name="close_button_popup" >
+        <item name="android:background">@drawable/close_button_popup</item>
+    </style>
+
+    <style name="fooditemlist_orderdetails_border" >
+        <item name="android:background">@drawable/fooditemlist_orderdetails_border</item>
+    </style>
+
+    <style name="fooditemlist_titles" >
+        <item name="android:background">@drawable/fooditemlist_titles</item>
+    </style>
+
+    <style name="fooditemlist_taxtotal" >
+        <item name="android:background">@drawable/fooditemlist_taxtotal</item>
+    </style>
+
+    <style name="orderdetails_button" >
+        <item name="android:background">@drawable/orderdetails_button</item>
+    </style>
+
+    <style name="circular_corner" >
+        <item name="android:background">@drawable/circular_corners</item>
+    </style>
+
+    <style name="circular_corners_only_top" >
+        <item name="android:background">@drawable/circular_corners_only_top</item>
+    </style>
+
+
+</resources>

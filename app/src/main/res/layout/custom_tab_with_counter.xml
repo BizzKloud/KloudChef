@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="145dp"
+    android:layout_height="60dp"
+    android:weightSum="8">
+
+    <TextView
+        android:layout_weight="0.9"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        />
+
+    <TextView
+        android:id="@+id/textViewTabTitle"
+        android:layout_weight="6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="CANCELLED"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewTabCount"
+        style="@style/count_style"
+        android:layout_weight="1.1"
+        android:layout_width="0dp"
+        android:layout_height="17sp"
+        android:layout_margin="2dp"
+        android:layout_gravity="top|center"
+        android:gravity="center"
+        android:text="00"
+        android:textColor="@android:color/white"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:visibility="invisible"/>
+
+
+</LinearLayout>
